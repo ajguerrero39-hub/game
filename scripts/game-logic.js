@@ -1,4 +1,5 @@
 const start = document.getElementById("start-button");
+const reset = document.getElementById("reset-button");
 var playerScore = 0;
 var opponentScore = 0;
 const opponentChoices = ["rock", "paper", "scissors"];
@@ -20,6 +21,15 @@ document.getElementById("scissors-button").addEventListener("click", function ()
 start.addEventListener("click", function () {
     startGame();
 });
+reset.addEventListener("click", function () {
+    playerScore = 0;
+    opponentScore = 0;
+    playChoice = "";
+    document.getElementById("player-score").innerHTML = "Player Score: " + playerScore;
+    document.getElementById("opponent-score").innerHTML = "Opponent Score: " + opponentScore;
+    document.getElementById("result").innerHTML = "";
+});
+
 
 function startGame() {
 
