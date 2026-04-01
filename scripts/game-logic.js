@@ -37,22 +37,31 @@ function startGame() {
     console.log("Opponent's choice: " + opponentChoice);
 
     console.log("Your choice: " + playChoice);
-    if (playChoice === opponentChoice) {
-        console.log("It's a tie!");
-        document.getElementById("result").innerHTML = "It's a tie!";
-    } else if (
-        (playChoice === "rock" && opponentChoice === "scissors") ||
-        (playChoice === "paper" && opponentChoice === "rock") ||
-        (playChoice === "scissors" && opponentChoice === "paper")
-    ) {
-        console.log("You win!");
-        document.getElementById("result").innerHTML = "You win!";
-        document.getElementById("player-score").innerHTML = "Player Score: " + ++playerScore;
-    } else {
-        console.log("You lose!");
-        document.getElementById("result").innerHTML = "You lose!";
-        document.getElementById("opponent-score").innerHTML = "Opponent Score: " + ++opponentScore;
+    if (!playChoice) {
+        console.log("Please make a choice before starting the game.");
+        document.getElementById("result").innerHTML = "Please make a choice before starting the game.";
+        return;
     }
+    else {
+        if (playChoice === opponentChoice) {
+            console.log("It's a tie!");
+            document.getElementById("result").innerHTML = "It's a tie!";
+        } else if (
+            (playChoice === "rock" && opponentChoice === "scissors") ||
+            (playChoice === "paper" && opponentChoice === "rock") ||
+            (playChoice === "scissors" && opponentChoice === "paper")
+        ) {
+            console.log("You win!");
+            document.getElementById("result").innerHTML = "You win!";
+            document.getElementById("player-score").innerHTML = "Player Score: " + ++playerScore;
+        } else {
+            console.log("You lose!");
+            document.getElementById("result").innerHTML = "You lose!";
+            document.getElementById("opponent-score").innerHTML = "Opponent Score: " + ++opponentScore;
+        }
+        
+    }
+    playChoice = "";
 
 
 }
