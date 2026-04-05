@@ -1,4 +1,4 @@
-# game
+# Rock-Paper-Scissor
 April 13th 2026
 
 > A classic game of Rock, Paper, Scissors: Guess the winning play against your opponent for high score
