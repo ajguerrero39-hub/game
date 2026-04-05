@@ -6,3 +6,5 @@ April 13th 2026
 > Scissors beats Paper, Paper beats Rock, and Rock beats Scissors
 
 Made with W3Schools
+## Wireframe ##
+<img width = "1000" height = 10000 src = 
