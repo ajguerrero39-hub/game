@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock-Paper-Scissors</title>
+  <link href="styles/game-style.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a id="easter-egg" class="navbar-brand">Rock-Paper-Scissors</a>
+      console.log("click the title for a surprise!");
+      <a href="https://github.com/ajguerrero39-hub"
+          class="text-decoration-none text-muted border border-secondary-subtle rounded-pill px-3 py-1" target="_blank">
+          <i class="bi bi-github"></i>
+          <i class="bi bi-person-circle"></i>
+          GitHub Profile
+        </a>
+        <button  class="bi bi-patch-question-fill" id="how-to-play-button"> How to Play</button>
+      <button class="bi bi-arrow-repeat" id="reset-button">Reset Game?</button>
+      
+    </div>
+  </nav>
+  <h4 id="instructions">Click a button to make your choice, then click "Start Game" to play.</h4>
+  <h3 id ="high-score">High Score: 0</h3>
+
+  <button class="play-button" id="rock-button">Rock</button>
+  <button class="play-button" id="paper-button">Paper</button>
+  <button class="play-button" id="scissors-button">Scissors</button>
+  <div id="game-area"><form>
+    <img id="rock-img">
+    <img id="paper-img">
+    <img id="scissors-img">
+  </form></div>
+  <div id="game-area">
+    <img id=opponent-choice-img>
+  </div>
+  <button id="start-button">Start Game</button>
+
+
+  <p id="result"></p>
+  <span id="player-score"></span>
+  <span id="opponent-score"></span>
+
+
+
+  <footer class="mt-auto py-3 bg-dark border-top sticky-bottom">
+    <div class="container">
+      <div class="d-flex justify-content-center align-items-center gap-4 small text-muted flex-wrap">
+
+        <a href="https://github.com/ajguerrero39-hub/game"
+          class="text-decoration-none text-muted border border-secondary-subtle rounded-pill px-3 py-1" target="_blank">
+          &lt; <i class="bi bi-github"></i> source code &gt;
+        </a>
+
+        <span>
+          &copy; 2026 Anthony Guerrero
+        </span>
+
+        <a href="https://github.com/ajguerrero39-hub"
+          class="text-decoration-none text-muted border border-secondary-subtle rounded-pill px-3 py-1" target="_blank">
+          <i class="bi bi-github"></i>
+          <i class="bi bi-person-circle"></i>
+          GitHub Profile
+        </a>
+
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

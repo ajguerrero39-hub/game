@@ -1,0 +1,67 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Rubik+Mono+One&display=swap');
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+#result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.play-button {
+    width: 120px;
+    height: 120px;
+    font-size: 18px;
+    color: white;
+    margin: 10px;
+    background-color: rgb(193, 71, 37);
+    border-radius: 10px;
+}
+#how-to-play-button {
+    background-color: rgb(37, 71, 193);
+    color: white;
+}
+#how-to-play-button:hover {
+    background-color: rgb(3, 35, 153);
+    color: white;
+}
+#start-button {
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: rgb(175, 193, 37);
+    border-radius: 10px;
+}
+.play-button:hover {
+    background-color: rgb(193, 37, 71);
+    color: white;
+}
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+#reset-button {
+    background-color: rgb(37, 193, 71);
+}
+#reset-button:hover {
+    background-color: rgb(154, 5, 5);
+    color: white;
+}
+#start-button:hover {
+    background-color: rgb(5, 154, 104);
+    color: white;
+}
+body {
+    background-color: rgb(151, 72, 152);
+}
+#game-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 10px solid black;
+}
