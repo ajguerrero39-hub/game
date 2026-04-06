@@ -61,6 +61,7 @@ function startGame() {
 
     console.log("Your choice: " + playChoice);
     if (!playChoice) {
+        clearAllImages();
         console.log("Please make a choice before starting the game.");
         document.getElementById("result").innerHTML = "Please make a choice before starting the game.";
         return;
@@ -88,20 +89,25 @@ function startGame() {
 
 }
 function clearRockImage() {
-    document.getElementById("rock-img").src = "";
-    document.getElementById("rock-img").alt = "";
+    // document.getElementById("rock-img").src = "";
+    // document.getElementById("rock-img").alt = "";
+    document.getElementById("rock-img").style.display = "none";
 }
 function clearPaperImage() {
-    document.getElementById("paper-img").src = "";
-    document.getElementById("paper-img").alt = "";
+    // document.getElementById("paper-img").src = "";
+    // document.getElementById("paper-img").alt = "";
+    document.getElementById("paper-img").style.display = "none";
+
 }
 function clearScissorsImage() {
-    document.getElementById("scissors-img").src = "";
-    document.getElementById("scissors-img").alt = "";
+    // document.getElementById("scissors-img").src = "";
+    // document.getElementById("scissors-img").alt = "";
+    document.getElementById("scissors-img").style.display = "none";
 }
 function clearOpponentImage() {
-    document.getElementById("opponent-choice-img").src = "";
-    document.getElementById("opponent-choice-img").alt = "";
+    // document.getElementById("opponent-choice-img").src = "";
+    // document.getElementById("opponent-choice-img").alt = "";
+    document.getElementById("opponent-choice-img").style.display = "none";
 }
 function clearAllImages() {
     clearRockImage();
@@ -114,18 +120,21 @@ function createRockImage() {
     document.getElementById("rock-img").alt = "Rock Image";
     document.getElementById("rock-img").width = 100;
     document.getElementById("rock-img").height = 100;
+    document.getElementById("rock-img").style.display = "block";
 }
 function createPaperImage() {
     document.getElementById("paper-img").src = "https://th.bing.com/th/id/OIP.2sUG2Oo4Kl-Tgi6M1gyefwHaHa?w=203&h=203&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3";
     document.getElementById("paper-img").alt = "Paper Image";
     document.getElementById("paper-img").width = 100;
     document.getElementById("paper-img").height = 100;
+    document.getElementById("paper-img").style.display = "block";
 }
 function createScissorsImage() {
     document.getElementById("scissors-img").src = "https://th.bing.com/th/id/OIP.iSGz4c9LX3FoQhfRJN-W6gHaHa?w=199&h=199&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3";
     document.getElementById("scissors-img").alt = "Scissors Image";
     document.getElementById("scissors-img").width = 100;
     document.getElementById("scissors-img").height = 100;
+    document.getElementById("scissors-img").style.display = "block";
 }
 function createOpponentImage(choice) {
     if (choice === "rock") {
@@ -133,6 +142,7 @@ function createOpponentImage(choice) {
         document.getElementById("opponent-choice-img").alt = "Rock Image";
         document.getElementById("opponent-choice-img").width = 100;
         document.getElementById("opponent-choice-img").height = 100;
+
     } else if (choice === "paper") {
         document.getElementById("opponent-choice-img").src = "https://th.bing.com/th/id/OIP.2sUG2Oo4Kl-Tgi6M1gyefwHaHa?w=203&h=203&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3";
         document.getElementById("opponent-choice-img").alt = "Paper Image";
@@ -144,4 +154,5 @@ function createOpponentImage(choice) {
         document.getElementById("opponent-choice-img").width = 100;
         document.getElementById("opponent-choice-img").height = 100;
     }
+    document.getElementById("opponent-choice-img").style.display = "block";
 }
