@@ -7,6 +7,12 @@ April 13th 2026
 
 Made with W3Schools
 
+[Source Code](https://github.com/ajguerrero39-hub/game)
+
+[Game](https://ajguerrero39-hub.github.io/game/)
+
+[Github Profile](https://github.com/ajguerrero39-hub)
+
 [Nu Validation](https://validator.nu/?doc=https%3A%2F%2Fajguerrero39-hub.github.io%2Fgame%2F)
 
 [WAVE Validation](https://accessibe.com/accessscan?website=https://ajguerrero39-hub.github.io/game/)
