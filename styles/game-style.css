@@ -65,3 +65,10 @@ body {
     margin-top: 20px;
     border: 10px solid black;
 }
+#opp-game-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 10px solid black;
+}

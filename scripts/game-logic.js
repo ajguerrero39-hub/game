@@ -3,8 +3,10 @@ const reset = document.getElementById("reset-button");
 var playerScore = 0;
 var opponentScore = 0;
 var highScore = 0;
+var gamecounter = 0;
 const opponentChoices = ["rock", "paper", "scissors"];
 console.log("click the title for a surprise!");
+
 document.getElementById("how-to-play-button").addEventListener("click", function () {
     alert("Welcome to Rock-Paper-Scissors! Rock beats Scissors, Paper beats Rock, and Scissors beats Paper. You can reset the game at any time by clicking the 'Reset Game?' button. Have fun playing!");
 });
@@ -42,15 +44,16 @@ reset.addEventListener("click", function () {
     }
     playerScore = 0;
     opponentScore = 0;
+    gamecounter = 0;
     playChoice = "";
     document.getElementById("player-score").innerHTML = "Player Score: " + playerScore;
     document.getElementById("opponent-score").innerHTML = "Opponent Score: " + opponentScore;
     document.getElementById("result").innerHTML = "";
+    document.getElementById("game-count").innerHTML = gamecounter;
     clearAllImages();
 });
 document.getElementById("easter-egg").addEventListener("click", function () {
     alert("Congratulations! You found the easter egg!");
-
 });
 
 function startGame() {
@@ -83,30 +86,22 @@ function startGame() {
             document.getElementById("result").innerHTML = "You lose!";
             document.getElementById("opponent-score").innerHTML = "Opponent Score: " + ++opponentScore;
         }
-        
+        document.getElementById("game-count").innerHTML = ++gamecounter;
     }
     playChoice = "";
 
 }
 function clearRockImage() {
-    // document.getElementById("rock-img").src = "";
-    // document.getElementById("rock-img").alt = "";
     document.getElementById("rock-img").style.display = "none";
 }
 function clearPaperImage() {
-    // document.getElementById("paper-img").src = "";
-    // document.getElementById("paper-img").alt = "";
     document.getElementById("paper-img").style.display = "none";
 
 }
 function clearScissorsImage() {
-    // document.getElementById("scissors-img").src = "";
-    // document.getElementById("scissors-img").alt = "";
     document.getElementById("scissors-img").style.display = "none";
 }
 function clearOpponentImage() {
-    // document.getElementById("opponent-choice-img").src = "";
-    // document.getElementById("opponent-choice-img").alt = "";
     document.getElementById("opponent-choice-img").style.display = "none";
 }
 function clearAllImages() {
