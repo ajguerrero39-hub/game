@@ -6,6 +6,8 @@ April 13th 2026
 > Scissors beats Paper, Paper beats Rock, and Rock beats Scissors
 
 Made with W3Schools
+
+[Nu Validation](https://validator.nu/?doc=https%3A%2F%2Fajguerrero39-hub.github.io%2Fgame%2F)
 ## Wireframe ##
 <img width = "1000" height = 10000 src = https://github.com/ajguerrero39-hub/game/blob/238128706764599a43f3e7dcf1571f7fde3c4d4a/images/IMG_20260327_163515543_AE.jpg/>
 
