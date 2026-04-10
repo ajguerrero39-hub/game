@@ -20,6 +20,9 @@ Made with W3Schools
 ## Wireframe ##
 <img width = "1000" height = 10000 src = https://github.com/ajguerrero39-hub/game/blob/238128706764599a43f3e7dcf1571f7fde3c4d4a/images/IMG_20260327_163515543_AE.jpg/>
 
+## Game ScreenShot ##
+<img width = "1000" height = "10000" src = https://github.com/ajguerrero39-hub/game/blob/0bf583f1c369d3e1f3cba86ea53d2c1d6c105ad5/images/Screenshot%202026-04-09%20185756.png/>
+
 ## Code Sample
 
 This is the main driver for the game
