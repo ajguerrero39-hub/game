@@ -9,9 +9,10 @@ April 13th 2026
 
 *So that I can have fun*
 
-> A classic game of Rock, Paper, Scissors: Guess the winning play against your opponent for high score
-
-> Scissors beats Paper, Paper beats Rock, and Rock beats Scissors
+>This program simulates a game of Rock, Paper, Scissors.
+>I chose this to improve because it is my favorite of the programs I made this semester
+>TBD
+>TBD
 
 Made with W3Schools
 
