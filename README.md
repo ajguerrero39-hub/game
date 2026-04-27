@@ -1,5 +1,5 @@
 # Rock-Paper-Scissors
-April 13th 2026
+May 3rd 2026
 ### by Anthony Guerrero
 
 ## User Story
