@@ -1,5 +1,13 @@
-# Rock-Paper-Scissor
+# Rock-Paper-Scissors
 April 13th 2026
+### by Anthony Guerrero
+
+## User Story
+*As a game player*
+
+*I want to play Rock, Paper, Scissors*
+
+*So that I can have fun*
 
 > A classic game of Rock, Paper, Scissors: Guess the winning play against your opponent for high score
 
